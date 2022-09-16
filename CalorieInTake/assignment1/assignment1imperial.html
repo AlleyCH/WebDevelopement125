@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> BMR CALCULATOR</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIjXuvdtWXVkhflZxoIPvNutFCVndmWZhHBg&usqp=CAU" alt="pic" />
+
+    <ul id="list">
+        <li> <a href="assignment1.html">Switch to Metric</a></li>
+    </ul>
+    <form>
+        <div>
+            <p>
+                Female
+                <input name="Sex" type="radio" value="Female" id="Female" />
+            </p>
+            <p>
+                Male
+                <input name="Sex" type="radio" value="Male" id="Male" />
+            </p>
+            <lable for="age">Age </lable>
+            <input type="number" id="Age" name="age" min="16" max="100" required />
+            <p></p>
+            <label> Enter your height</label>
+            <input id="Foot" placeholder="Enter in feet" required />
+            <input id="Inches" placeholder="Enter in inches" required />
+            <p></p>
+            <lable> Enter your weight</lable>
+            <input id="Weight" placeholder="Enter in pounds" required />
+            <p></p>
+            <select>
+                <option> Pick an anwser </option>
+                <option> Little to no exercise </option>
+                <option> Lightly active </option>
+                <option> Moderately active </option>
+                <option> Very active </option>
+                <option> Super active </option>
+            </select>
+            <button type="submit" onclick="CalculateBmiMetric()">Calculate</button>
+        </div>
+    </form>
+    <script src="assignment1.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿body {
+    background-color: black;
+}
+
+#Title {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#MakeTable {
+    color: green;
+    font-size: x-large;
+    background: center;
+    width: 1250px;
+    font-family: cursive;
+}
+
+#CopyRight {
+    color: white;
+    text-align: center;
+}
+#Thanks {
+    font-size: x-large;
+}
+
+#Line {
+    border-style:dashed;
+    border-color:green; 
+    border-width:2px; 
+    margin-left:31em; 
+    margin-right:31em;
+}

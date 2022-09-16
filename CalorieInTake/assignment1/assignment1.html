@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> BMR CALCULATOR</title>
+    <link rel='shortcut icon' type='image/x-icon' href='https://images.everydayhealth.com/images/you-can-boost-weight-loss-by-knowing-your-bmr-heres-how-it-works-722x406.jpg' />
+
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIjXuvdtWXVkhflZxoIPvNutFCVndmWZhHBg&usqp=CAU" alt="pic" />
+    <form name="myForm">
+        <ul>
+            <li> <a href="assignment1imperial.html">Switch to Imperial</a></li>
+        </ul>
+        <div>
+            <p>
+                Female
+                <input name="Sex" type="radio" value="Female" id="Female" />
+            </p>
+            <p>
+                Male
+                <input name="Sex" type="radio" value="Male" id="Male" />
+            </p>
+            <lable for="age">Age </lable>
+            <input type="number" id="Age" name="myAge" min="16" max="100" required />
+            <p></p>
+            <label> Enter your height</label>
+            <input id="Height" name="myHeight" placeholder="Enter in cm" required />
+            <p></p>
+            <lable> Enter your weight</lable>
+            <input id="Weight" name="myWeight" placeholder="Enter in kg" required />
+            <p></p>
+            <select>
+                <option> Pick an anwser </option>
+                <option id="Noexer"> Little to no exercise </option>
+                <option id=" Litexer"> Lightly active </option>
+                <option id="Modexer"> Moderately active </option>
+                <option id="Veryexer"> Very active </option>
+                <option> Super active </option>
+            </select>
+            <button type="submit" id="submit"> Calculate</button>
+        </div>
+    </form>
+    <script src="assignment1.js"></script>
+
+</body>
+</html>

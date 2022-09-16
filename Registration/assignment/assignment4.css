@@ -1,0 +1,31 @@
+﻿body {
+    background-color: bisque;
+}
+
+
+body > h1:nth-child(1) {
+        margin: unset;
+        float: unset;
+        text-align: center;
+
+}
+
+
+#FName:invalid {
+    background: rgb(255,233,233);
+}
+
+#div > center:nth-child(1) {
+    width: min-content;
+    margin: auto;
+}
+
+#submit {
+    color: deeppink;
+    background-color: black;
+}
+
+#form {
+    font-size: larger;
+}
+

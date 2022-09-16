@@ -1,0 +1,15 @@
+﻿body {
+    background-color: #8181e3;
+    text-align: center;
+}
+div {
+    width: 628px;
+    border: 5px solid #3d1616;
+    padding: 50px;
+    margin-left: 260px;
+    box-shadow: black;
+}
+
+element.style {
+    color: white;
+}
